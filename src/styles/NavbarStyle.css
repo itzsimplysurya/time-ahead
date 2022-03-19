@@ -1,0 +1,45 @@
+.navbar {
+    height: 60px;
+}
+
+
+.wrapper {
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.logo {
+    object-fit: contain;
+    height: 70px;
+    margin-left: 20px;
+}
+
+.links{
+    color: #808080;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  cursor: pointer;
+}
+
+.right {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.menuitem {
+    margin-left: 25px;
+}
+
+.center {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
